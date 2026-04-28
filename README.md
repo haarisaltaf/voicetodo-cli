@@ -19,7 +19,10 @@ Debian/Ubuntu (or anywhere with Python 3.11+).
 * Drop into an interactive REPL when you don't pass a subcommand.
 
 ## Install
+### Add via aliasing in .zshrc or .bashrc
+alias voicetodo='PYTHONPATH=.../path/to/voicetodo-cli-folder python3 -m voicetodo_cli'
 
+### Install to pip userspace
 ```bash
 pip install --user .
 ```
