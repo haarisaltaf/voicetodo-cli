@@ -20,7 +20,7 @@ Debian/Ubuntu (or anywhere with Python 3.11+).
 
 ## Install
 ### Add via aliasing in .zshrc or .bashrc
-alias voicetodo='PYTHONPATH=.../path/to/voicetodo-cli-folder python3 -m voicetodo_cli'
+alias voicetodo='PYTHONPATH=.../path/above/voicetodo-cli-folder python3 -m voicetodo-cli'
 
 ### Install to pip userspace
 ```bash
